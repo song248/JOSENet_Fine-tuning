@@ -1,0 +1,16 @@
+# Supervised learning parameters
+interval: 4
+batch_size: 32
+dropout: 0.2
+dropout3d: 0.2
+epochs: 30
+t_max: 30
+patience: 15
+lr: 0.01
+eta_min: 0.001
+diff_lr_rgb: False
+diff_lr_flow: False
+mixed_precision: True
+coclr: False
+dataset: 'RWF-2000'
+fps: 7.5

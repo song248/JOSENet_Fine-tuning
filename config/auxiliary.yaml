@@ -1,0 +1,23 @@
+# SSL parameters
+batch_size: 64
+dropout: 0.2
+dropout3d: 0
+epochs: 100
+t_max: 100
+patience: 100
+lr: 0.02
+eta_min: 0.002
+mixed_precision: True
+
+# UCF-Crime parameters
+interval: 1 
+
+# HMDB51, UCF101 parameters
+fps: 7.5
+
+# Tasks parameters
+expander_dimensionality: 8192 # VICReg
+expander_input_dim: 864 # VICReg
+lambd: 25
+mu: 25
+nu: 1
